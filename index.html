@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>フォームサイト</title>
+  <link rel="" href="">
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="js/jq-maskinput.js"></script>
+  <script>
+    $(function () {
+      $(".mask").maskInput();
+    });
+
+  </script>
+
+  <style type="text/css">
+    #dateTest {
+      vertical-align: top;
+    }
+  </style>
+
+</head>
+<body class="body1">
+  <h2 class="onecoininfo">one coin info</h2>
+  <h5>本サービスはすべての料金がワンコイン（￥500/月）ですが、ベータ期間中は無料となっております。ベータ期間が終了した際は自動解約となり再度契約していただく必要があることをご承知ください</h5>
+  </div>
+  <h1 class="h1class">お客様情報のご入力</h1>
+  <form action="https://script.google.com/macros/s/AKfycbwzHJAi1SP8H6iRpwsvlM6iu2tum6q3O0qatb0uuTHToEQL-0md/exec" method="post">
+  <table class="form-table">
+    <tbody>
+      <tr>
+        <th>氏名</th>
+        <td><input required type="text" name="nameOrigin" size="60" value="" placeholder="山田太郎">
+        </td>
+      </tr>
+      <tr>
+        <th>メールアドレス</th>
+        <td><input required type="email" name="emailOrigin" size="60" value="" placeholder="sample@sample.jp">
+        </td>
+      </tr>
+      <tr>
+        <th>パスワード</th>
+        <td><input required type="text" name="passwordOrigin" size="60" value="" >
+        </td>
+      </tr>
+
+
+      <tr>
+        <th>カード番号</th>
+        <td>
+          <div class="row">
+
+            <div class="col-xs-9">
+              <input required type="text" name="cardNumberOrigin" class="mask" data-mask-format="####-####-####-####" />
+            </div>
+          </div>
+        </div>
+        </td>
+      </tr>
+
+
+      <tr>
+        <th>有効期限</th>
+        <td>
+          <div class="row">
+
+            <div class="col-xs-9">
+              <input required type="text" name="expirationOrigin" class="mask" data-mask-format="##/##" />
+            </div>
+          </div>
+        </div>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <th>セキュリティーコード</th>
+        <td>
+          <div class="row">
+
+            <div class="col-xs-9">
+              <input required type="text" name="securityCodeOrigin" class="mask" data-mask-format="###"/>
+            </div>
+          </div>
+        </div>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <th>カード名義</th>
+        <td><input required type="text" name="nomineeOrigin" size="60" value="" placeholder="TARO YAMADA">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="submit"class="btn btn--orange">メッセージを送信</button>
+</form>
+</body>

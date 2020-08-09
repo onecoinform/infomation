@@ -1,0 +1,176 @@
+
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px auto 40px;
+}
+
+
+ 
+input[type="submit"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+ 
+ 
+input[type="text"],
+textarea {
+  background: #f8f8f8;
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 310px;
+  transition: 0.8s;
+  border-radius: 0;
+}
+ 
+input[type="text"]:focus,
+textarea:focus {
+  background: #e9f5fb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="password"],
+textarea {
+  background: #f8f8f8;
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 310px;
+  transition: 0.8s;
+  border-radius: 0;
+}
+ 
+input[type="passwoed"]:focus,
+textarea:focus {
+  background: #e9f5fb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"],
+textarea {
+  background: #f8f8f8;
+  display: block;
+  font-size: 16px;
+  padding: 12px 15px;
+  width: 310px;
+  transition: 0.8s;
+  border-radius: 0;
+}
+ 
+input[type="email"]:focus,
+textarea:focus {
+  background: #e9f5fb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+ 
+textarea[name="content"] {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+ 
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+ 
+::-webkit-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+ 
+.form-table {
+  width: 100%;
+}
+ 
+.form-table th,
+.form-table td {
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 20px;
+}
+ 
+.form-table th {
+  background: rgb(43, 61, 119);
+  padding-left: 50px;
+  position: relative;
+  text-align: left;
+  width: 300px;
+  color: #f8f8f8;
+}
+
+
+
+@media(min-width: 0px) and (max-width: 800px){
+  .form-table th,
+  .form-table td {
+    display: block;
+    width: 100%;
+    border-bottom: none;
+  }
+}
+
+.btn--orange,
+a.btn--orange {
+  margin-left: 45%;
+  padding: 10px;
+  color: #fff;
+  background-color: #8BA5D2;
+  padding: 10px;
+  margin-top: 30px;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: 
+  #658aca;
+}
+
+.onecoininfo {
+  color: #f8f8f8;
+  background: #8BA5D2;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0;
+  font-size: 30px;
+  font-family: Helvetica, Arial,  sans-serif;
+}
+
+.h1class {
+  margin-top: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+.body1{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 300px;
+}
+
+
